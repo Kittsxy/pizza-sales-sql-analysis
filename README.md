@@ -28,6 +28,9 @@ To analyze sales patterns and business KPIs from a fictional pizza store dataset
 - **Top 5 Best-Selling and Least-Selling Pizzas**
 
 ---
+## 🖥 Dashboard Version
+This SQL analysis is also visualized in a companion Power BI dashboard.
+👉 https://www.notion.so/Dashboard-Pizzas-Sales-22e0e635cc9b816e946ee2952f1a313e?source=copy_link
 
 ## 🔍 Sample SQL Queries
 
@@ -43,7 +46,3 @@ SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Sold
 FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Sold DESC;
-
-🖥 Dashboard Version
-This SQL analysis is also visualized in a companion Power BI dashboard.
-👉 https://www.notion.so/Dashboard-Pizzas-Sales-22e0e635cc9b816e946ee2952f1a313e?source=copy_link
